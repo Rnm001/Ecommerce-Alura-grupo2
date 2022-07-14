@@ -214,3 +214,143 @@ color:#2A7AE4;
     width:15px;
     height:12px;
 }
+
+.title__productos__DV{
+    padding-left:225px;
+    position:absolute;
+    top:1600px;
+    font-size: 40px;
+    z-index:1;
+}
+
+.title__catalogo__DV{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    padding: 120px;
+    margin-left: 50px;
+    margin-right:500px;
+}
+
+.title__producto__item_13, .title__producto__item_14, .title__producto__item_15, .title__producto__item_16, .title__producto__item_17, .title__producto__item_18 {
+     margin: 5px 0 0 0;
+}
+   
+#imgcatalogo13, #imgcatalogo14, #imgcatalogo15, #imgcatalogo16, #imgcatalogo17, #imgcatalogo18{
+    width: 200px;
+    height: 200px;
+    margin: -55px 0 0 55px;
+}
+.irCatalogo2{
+    position:absolute;
+    left:101rem;    
+    top:73rem;
+    font-size: 18px;
+    font-weight: 800;
+    color:#2A7AE4;
+}
+#flecha2{
+    width:15px;
+    height:12px;
+}
+
+/*Contacto*/
+
+section.formcontato{
+    padding: 1px 0;
+    background-color:rgb(216, 237, 252); 
+}
+section.formcontato div.formcontato__contacto{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 64px 350px;
+}
+div.formcontato__text h2.formcontato__title{
+    font-style: normal;
+    font-size: 32px;
+    font-weight:700;
+    line-height: 15px;
+    font-family: 'Raleway';
+}
+div.formcontato__text h3.formcontato__subtext{
+    font-style: normal;
+    font-size: 16px;
+    font-weight:700;
+    line-height: 15px;
+    font-family: 'Raleway';
+}
+div.formcontato__text form.formcontato__form{
+    width: 190%;
+    max-width: 900px;
+    margin:0%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+div.formcontato__text form.formcontato__form input.formcontato__input{
+    margin: 4px;
+    font-family: 'Raleway';;
+    font-style: normal;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 36px;
+    border:none;
+}
+div.formcontato__text form.formcontato__form textarea.formcontato__textarea{
+    margin: 4px;
+    font-family: 'Raleway';;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    resize: none;
+    border: none;
+}
+div.formcontato__text form.formcontato__form button.formcontato__botao{
+    margin: 4px;
+    width: 12rem;
+    min-width: 6rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    transition: 1s all;
+    background-color: #2A7AE4;
+    color: #ebf3f6;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+div.formcontato__text form.formcontato__form button.formcontato__botao:hover {
+    transition: .1s all;
+    background-color: #749dcf;
+    font-family: 'Raleway';
+}
+
+.formcontato__img{
+    margin-bottom:220px;
+    margin-right:100px;
+}
+
+/* Footer */
+
+section.footer{
+    justify-content: space-around;
+    align-items: center;
+ }
+ 
+ section.footer div.footer__rodape{
+     width: 100%;
+     
+     right: 3%; 
+     display: flex; 
+     color:white;
+     background-color: #2A7AE4;
+     justify-content: center;
+     text-align: center;
+     
+ }
