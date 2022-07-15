@@ -332,8 +332,18 @@ div.formcontato__text form.formcontato__form button.formcontato__botao:hover {
 }
 
 .formcontato__img{
-    margin-bottom:220px;
+    margin-bottom:195px;
     margin-right:100px;
+}
+
+.listaFooter{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    align-content: flex-end;
+    line-height: 40px;
+    padding-right: 60px;
 }
 
 /* Footer */
@@ -345,12 +355,12 @@ section.footer{
  
  section.footer div.footer__rodape{
      width: 100%;
-     
      right: 3%; 
      display: flex; 
-     color:white;
-     background-color: #2A7AE4;
+     color:black;
+     background-color: white;
      justify-content: center;
      text-align: center;
-     
+     padding-top:20px;
+     padding-bottom:20px;
  }
