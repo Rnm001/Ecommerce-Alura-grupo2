@@ -1,0 +1,409 @@
+.topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+    padding-bottom:80px;
+    gap: 611px;
+    background: #FFFFFF;
+    }
+    #logo{
+        display:flex;
+        position: absolute;
+        left: 3%;
+        right: 0%;
+        top: 2.5%;
+        bottom: 0%;
+    }
+    .textoBuscar {
+            position: absolute;
+            left: 22%;
+            top: 3%;
+            width: 271px;
+            border-radius:20%;
+            font-family: 'Raleway';
+            
+    }
+    .input-icon {
+            color: #191919;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 415px;
+            top: 50%;
+            transform: translateY(-50%);
+    }
+    #search-text {
+        font-size: 14px;
+        color: #ddd;
+        width:450px;
+        border-radius: 20px;
+        border-width: 0;
+        background: rgb(235, 235, 235);
+        padding: 9px 0 12px 1em;   
+        font-family: 'Raleway'; 
+        
+    }
+        #search-box input[type="text"] {
+        width: 90%;
+        padding: 18px 0 12px 1em;
+        outline: none;
+        font-family: 'Raleway';
+    }
+
+    /*Inicio de sesion*/
+
+    .bannerGris{
+        background-color: rgb(245, 245, 245);
+        width:auto;
+        height:600px;
+    }
+
+    #botonEntrar{
+        position: absolute;
+        font-size:15px;
+        left: 35%;
+        top: 45%;
+        border: 2px solid;
+        color: white;
+        background-color:  #2A7AE4;;
+        border-color: #2A7AE4;
+        width: 360px;
+        height: 50px;
+        font-family: 'Raleway';
+    }
+
+    #textoBannerh2{
+        position: absolute;
+        font-size:25px;
+        font-weight:600;
+        left: 40%;
+        top: 25%;
+        font-family: 'Raleway';
+    }
+    #email-text{
+        position: absolute;
+        padding-left: 10px;
+        font-size:13px;
+        left: 35%;
+        width:350px;
+        height: 40px;
+        border:none;
+        top: 30%;
+        font-family: 'Raleway';
+    }
+
+    #password-text{
+        position: absolute;
+        padding-left: 10px;
+        font-size:13px;
+        left: 35%;
+        width:350px;
+        height: 40px;
+        border:none;
+        top: 36%;
+        font-family: 'Raleway';
+    }
+
+
+    /*formulario contacto*/
+
+    section.formcontato{
+        padding: 1px 0;
+        background-color:rgb(216, 237, 252); 
+        font-family: 'Raleway';
+    }
+    section.formcontato div.formcontato__contacto{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        margin: 64px 350px;
+        font-family: 'Raleway';
+    }
+    div.formcontato__text h2.formcontato__title{
+        font-style: normal;
+        font-size: 32px;
+        font-weight:700;
+        line-height: 15px;
+        font-family: 'Raleway';
+    }
+    div.formcontato__text h3.formcontato__subtext{
+        font-style: normal;
+        font-size: 16px;
+        font-weight:700;
+        line-height: 15px;
+        font-family: 'Raleway';
+    }
+    div.formcontato__text form.formcontato__form{
+        width: 140%;
+        max-width: 900px;
+        margin:0%;
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    div.formcontato__text form.formcontato__form input.formcontato__input{
+        margin: 4px;
+        font-family: 'Raleway';;
+        font-style: normal;
+        font-weight:400;
+        font-size: 16px;
+        line-height: 36px;
+        border:none;
+    }
+    div.formcontato__text form.formcontato__form textarea.formcontato__textarea{
+        margin: 4px;
+        font-family: 'Raleway';;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 36px;
+        resize: none;
+        border: none;
+    }
+    div.formcontato__text form.formcontato__form button.formcontato__botao{
+        margin: 4px;
+        width: 12rem;
+        min-width: 6rem;
+        height: 3rem;
+        border-radius: 0.3rem;
+        transition: 1s all;
+        background-color: #2A7AE4;
+        color: #ebf3f6;
+        border: none;
+        cursor: pointer;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    div.formcontato__text form.formcontato__form button.formcontato__botao:hover {
+        transition: .1s all;
+        background-color: #749dcf;
+        font-family: 'Raleway';
+    }
+    
+    .formcontato__img{
+        margin-bottom:195px;
+        margin-right:100px;
+    }
+    
+    .listaFooter{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+        align-content: flex-end;
+        line-height: 40px;
+        padding-right: 60px;
+        font-family: 'Raleway';
+    }
+    
+    /* Footer */
+    
+    section.footer{
+        justify-content: space-around;
+        align-items: center;
+     }
+     
+     section.footer div.footer__rodape{
+         width: 100%;
+         right: 3%; 
+         display: flex; 
+         color:black;
+         background-color: white;
+         justify-content: center;
+         text-align: center;
+         padding-top:20px;
+         padding-bottom:20px;
+         font-family: 'Raleway';
+     }
+    
+     @media (max-width: 1440px) {
+
+     }
+
+     @media (max-width: 1366px) {
+        
+    }
+
+    @media (max-width: 768px) {
+
+        
+        .bannerGris{
+            background-color: rgb(245, 245, 245);
+            width:auto;
+            height:450px;
+        }
+
+        #botonEntrar{
+            position: absolute;
+            font-size:15px;
+            left: 35%;
+            top: 55%;
+            border: 2px solid;
+            color: white;
+            background-color:  #2A7AE4;;
+            border-color: #2A7AE4;
+            width: 360px;
+            height: 50px;
+            font-family: 'Raleway';
+        }
+    
+        #textoBannerh2{
+            position: relative;
+            font-size:35px;
+            font-weight:600;
+            padding-top: 100px;
+            left: 41%;
+            top: 35%;
+            color:black;
+            font-family: 'Raleway';
+        }
+        #email-text{
+            position: absolute;
+            padding-left: 10px;
+            font-size:13px;
+            left: 35%;
+            width:350px;
+            height: 40px;
+            border:none;
+            top: 40%;
+            font-family: 'Raleway';
+        }
+    
+        #password-text{
+            position: absolute;
+            padding-left: 10px;
+            font-size:13px;
+            left: 35%;
+            width:350px;
+            height: 40px;
+            border:none;
+            top: 46%;
+            font-family: 'Raleway';
+        }
+        
+        section.formcontato{
+            height: 320px;
+            width: 720px;
+            background-color:rgb(216, 237, 252); 
+        }
+        section.formcontato div.formcontato__contacto{
+            display: flex;
+            justify-content: flex-start;
+            align-items: left;
+            margin: 4px 350px 80px 10px;
+            right:150%;
+            font-size:14px;
+        }
+        #footTexto{
+            margin-left:150px;
+            text-align:center;
+        }
+    }
+
+    @media (max-width: 368px) {
+        
+        #logo{
+            height:20px;
+            width:80px;
+            padding-left: 20px;
+        }
+
+        .bannerGris{
+            background-color: rgb(245, 245, 245);
+            width:auto;
+            height:450px;
+        }
+
+        #botonEntrar{
+            position: absolute;
+            font-size:15px;
+            left: 15%;
+            top: 55%;
+            border: 2px solid;
+            color: white;
+            background-color:  #2A7AE4;;
+            border-color: #2A7AE4;
+            width: 260px;
+            height: 50px;
+            font-family: 'Raleway';
+        }
+    
+        #textoBannerh2{
+            position: relative;
+            font-size:25px;
+            font-weight:600;
+            padding-top: 100px;
+            left: 25%;
+            top: 35%;
+            color:black;
+            font-family: 'Raleway';
+        }
+        #email-text{
+            position: absolute;
+            padding-left: 10px;
+            font-size:13px;
+            left: 15%;
+            width:250px;
+            height: 40px;
+            border:none;
+            top: 40%;
+            font-family: 'Raleway';
+        }
+    
+        #password-text{
+            position: absolute;
+            padding-left: 10px;
+            font-size:13px;
+            left: 15%;
+            width:250px;
+            height: 40px;
+            border:none;
+            top: 46%;
+            font-family: 'Raleway';
+        }
+        .formcontato__img{
+            display:none;
+            
+        }
+        
+        section.formcontato__contacto{
+            height: 368px;
+            width: auto;
+            background-color:rgb(216, 237, 252); 
+        }
+
+        .listaFooter{
+            text-align: left;
+            font-size: 10px;
+            padding-left: 100px;
+        }
+
+        .formcontato__text{
+            padding-left: 30px;
+        }
+        .formcontato__title{
+            padding-right: 20px;
+            
+        }
+        .formcontato__input{
+            width:150px;
+        }
+        .formcontato__textarea{
+            width:150px;
+        }
+
+        .formcontato__botao{
+            width:100px;
+        }
+
+        #footTexto{
+            
+            margin-left:-50px;
+            text-align:center;
+        }
+    }
