@@ -72,8 +72,11 @@
         width: 360px;
         height: 50px;
         font-family: 'Raleway';
+        
     }
-
+    #botonEntrar:hover{
+        cursor:pointer;
+    }
     #textoBannerh2{
         position: absolute;
         font-size:25px;
@@ -230,14 +233,29 @@
     }
 
     @media (max-width: 768px) {
-
-        
+        .textoBuscar {
+            position: absolute;
+            left: 30%;
+            top: 3%;
+            width: 271px;
+            border-radius:20%;
+            font-family: 'Raleway';
+         }
+        #search-text {
+            font-size: 14px;
+            color: #ddd;
+            width:450px;
+            border-radius: 20px;
+            border-width: 0;
+            background: rgb(235, 235, 235);
+            padding: 9px 0 12px 1em;   
+            font-family: 'Raleway'; 
+        }
         .bannerGris{
             background-color: rgb(245, 245, 245);
-            width:auto;
+            width:768px;
             height:450px;
         }
-
         #botonEntrar{
             position: absolute;
             font-size:15px;
@@ -285,22 +303,31 @@
             top: 46%;
             font-family: 'Raleway';
         }
-        
+        #formcontato__title h2{
+            font-size: 15px;
+        }
         section.formcontato{
-            height: 320px;
-            width: 720px;
+            height: 300px;
+            width: 768px;
+            padding-top: 20px;
             background-color:rgb(216, 237, 252); 
+        }
+        .formcontato__input{
+            width:250px;
+        }
+        .formcontato__textarea{
+            width:250px;
         }
         section.formcontato div.formcontato__contacto{
             display: flex;
             justify-content: flex-start;
             align-items: left;
-            margin: 4px 350px 80px 10px;
-            right:150%;
-            font-size:14px;
+            margin: 4px 10px 80px 10px;
+            right:100%;
+            font-size:11px;
         }
         #footTexto{
-            margin-left:150px;
+            margin-left:0px;
             text-align:center;
         }
     }
@@ -311,19 +338,38 @@
             height:20px;
             width:80px;
             padding-left: 20px;
+            padding-top: 10px;
         }
-
+        .textoBuscar {
+            position: absolute;
+            left: 40%;
+            top: 3%;
+            width: 171px;
+            border-radius:20%;
+            font-family: 'Raleway';
+         }
+        #search-text {
+            font-size: 12px;
+            color: #ddd;
+            width:150px;
+            border-radius: 20px;
+            border-width: 0;
+            background: rgb(235, 235, 235);
+            padding: 9px 0 12px 1em;   
+            font-family: 'Raleway'; 
+        }
         .bannerGris{
+        margin-top:-5%;
             background-color: rgb(245, 245, 245);
-            width:auto;
-            height:450px;
+            width:368px;
+            height:350px;
         }
-
+        
         #botonEntrar{
             position: absolute;
             font-size:15px;
             left: 15%;
-            top: 55%;
+            top: 46%;
             border: 2px solid;
             color: white;
             background-color:  #2A7AE4;;
@@ -331,15 +377,16 @@
             width: 260px;
             height: 50px;
             font-family: 'Raleway';
+            cursor:pointer;
         }
-    
+
         #textoBannerh2{
             position: relative;
             font-size:25px;
             font-weight:600;
-            padding-top: 100px;
+            padding-top: 50px;
             left: 25%;
-            top: 35%;
+            top: 25%;
             color:black;
             font-family: 'Raleway';
         }
@@ -351,7 +398,7 @@
             width:250px;
             height: 40px;
             border:none;
-            top: 40%;
+            top: 30%;
             font-family: 'Raleway';
         }
     
@@ -363,7 +410,7 @@
             width:250px;
             height: 40px;
             border:none;
-            top: 46%;
+            top: 36%;
             font-family: 'Raleway';
         }
         .formcontato__img{
@@ -371,25 +418,48 @@
             
         }
         
-        section.formcontato__contacto{
-            height: 368px;
-            width: auto;
+        
+        #formcontato__title h2{
+            font-size: 15px;
+        }
+        section.formcontato{
+            height: 400px;
+            width: 368px;
+            padding-top: 10px;
             background-color:rgb(216, 237, 252); 
         }
-
+        .formcontato__input{
+            width:200px;
+        }
+        .formcontato__textarea{
+            width:200px;
+        }
+        section.formcontato div.formcontato__contacto{
+            display: flex;
+            justify-content: flex-start;
+            align-items: left;
+            margin: 0px 1px 80px 10px;
+            right:10%;
+            font-size:11px;
+        }
+        #footTexto{
+            margin-left:0px;
+            text-align:center;
+        }
+    
         .listaFooter{
             text-align: left;
             font-size: 10px;
-            padding-left: 100px;
+            padding-left: 10px;
         }
-
-        .formcontato__text{
-            padding-left: 30px;
+        
+        .formcontato__text {
+            text-align: left;
         }
         .formcontato__title{
             padding-right: 20px;
-            
         }
+        
         .formcontato__input{
             width:150px;
         }
