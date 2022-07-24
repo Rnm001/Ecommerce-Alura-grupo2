@@ -13,7 +13,7 @@
     
     <link rel="stylesheet" href="CSS\reset.css">
     <link rel="stylesheet" href="CSS\stylecatalogo.css">
-    <link rel="stylesheet" media="screen and (max-width: 368px),(max-width: 768px),(max-width: 1366px),(max-width: 1440px)" href="CSS\responsivo.css">
+    <link rel="stylesheet" media="screen and (max-width: 368px),(max-width: 768px),(max-width: 1366px),(max-width: 1440px)" href="CSS\styleCatalogoresponsivo.css">
     <title>Ecommerce Alura</title>
 </head>
 
@@ -84,7 +84,7 @@
                 <form action="https://formsubmit.co/programacionpruebas2022@gmail.com" method="post" class="formcontato__form" name="form">
                 <input id="name" class="formcontato__input name" type="text" name="name" oninput="this.value = this.value.replace(/[^a-zA-Z ]/,'')" maxlength="50" placeholder="Nombre" required>
                 <textarea class="formcontato__textarea mensaje" rows="3" cols="40" id="mensaje" name="mensaje" oninput="this.value = this.value.replace(/[^a-zA-Z0-9.áéíóúñÑÁÉÍÓÚ ]/,'')" maxlength="300" placeholder="Mensaje" required></textarea>
-                <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                <button id="botonEnviar" type="submit" class="formcontato__botao">Enviar mensaje</button>
              </form>
           </div>
       </div>

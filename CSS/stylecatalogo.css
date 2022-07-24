@@ -187,11 +187,13 @@ div.formcontato__text form.formcontato__form button.formcontato__botao{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    cursor: pointer;
 }
 div.formcontato__text form.formcontato__form button.formcontato__botao:hover {
     transition: .1s all;
     background-color: #749dcf;
     font-family: 'Raleway';
+    cursor: pointer;
 }
 
 .formcontato__img{
