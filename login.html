@@ -10,10 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    
+    <script src="Scripts\login.js"></script>
     <link rel="stylesheet" href="CSS\reset.css">
     <link rel="stylesheet" href="CSS\stylelogin.css">
     <link rel="stylesheet" media="screen and (max-width: 368px),(max-width: 768px),(max-width: 1366px),(max-width: 1440px)" href="CSS\stylelogin.css">
+
     <title>Ecommerce Alura</title>
 </head>
 
@@ -38,9 +39,10 @@
             <header class="banner_boton__Gris">
                     <div class="textoBanner">
                     <h2 id="textoBannerh2">Iniciar Sesión</h2>
-                    <input id="email-text" class="input" placeholder="Escriba su Correo Electronico">
-                    <input id="password-text" type="password" class="input" placeholder="Escriba su Contraseña">
-                    <button id="botonEntrar">Entrar</button>
+                    <input id="email-text" class="email-input" placeholder="Escriba su Correo Electronico">
+                    <input id="password-text" class="password-input" type="password" class="input" placeholder="Escriba su Contraseña">
+                    <button id="botonEntrar" onclick=login()>Entrar</button>
+                    <h4 id="textoBannerh4">Usuario: admin@alura.com / Contraseña: admin</h4>
                 
                 </div>
                 

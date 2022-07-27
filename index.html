@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="CSS\reset.css">
     <link rel="stylesheet" href="CSS\style.css">
     <link rel="stylesheet" media="screen and (max-width: 768px),(max-width: 1366px), (max-width: 1440px)" href="CSS\responsivo.css">
+
     <title>Ecommerce Alura</title>
 </head>
 
@@ -24,12 +25,15 @@
         <header class="logo_search_login__header">
             <img id="logo" src="assets\logo1.png">
             <div class="textoBuscar">
-                <input id="search-text" type="search" class="input" placeholder="¿Que deseas buscar?">
-                <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+               
+                <input  type="text" id="search-text" class="input" placeholder="¿Que deseas buscar?" wrap="off" function="search_product">
+                <button svg xmlns="http://www.w3.org/2000/svg" class="input-icon" id="lupa" viewBox="0 0 20 20" fill="currentColor" onclick=filtrar()></button>></button>
                 <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
                 </svg>
+                <ul id="lista-resultado">
+                </ul>
             </div>
-            <button id="botonLogin">Login </button>
+            <button id="botonLogin"><a href=login.html>Login</a></button>
         </header>
     </section>
     </div>
@@ -42,7 +46,8 @@
                     <h2>Febrero Promocional</h2>
                     <h3>Productos Seleccionados con 33% de descuento</h3>
                 </div>
-                <button id="botonConsolas">Ver Consolas</button>
+                <button id="botonConsolas"><a href="#consolas">Ver Consolas</a></button>
+
             </header>
         </section>
         </div>
@@ -54,16 +59,16 @@
             
             <div class="title__container">
                 <h2 class="title__productos__SW">Star Wars</h2>
-                <h3 class="irCatalogo">Ver Todo<img id="flecha" src="assets\flecha.png"></h3>
+                <h3 class="irCatalogo"><a href="catalogo.html">  Ver Todo <img id="flecha" src="assets\flecha.png"></a></h3>
 
                 <ul class="title__catalogo__SW">
                      <!-- enlaces a los producots -->
-                    <li class="title__producto__item_1"><img id="imgcatalogo1" src="assets\imagen1.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$61,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_2"><img id="imgcatalogo2" src="assets\imagen2.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$62,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_3"><img id="imgcatalogo3" src="assets\imagen3.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$63,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_4"><img id="imgcatalogo4" src="assets\imagen4.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$64,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_5"><img id="imgcatalogo5" src="assets\imagen5.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$65,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_6"><img id="imgcatalogo6" src="assets\imagen6.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$66,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo1" src="assets\imagen1.png"><h3 id="productoNombre" >Taza Sw</h3><h3 id="precio">$61,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo2" src="assets\imagen2.png"><h3 id="productoNombre" >DartVader</h3><h3 id="precio">$62,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo3" src="assets\imagen3.png"><h3 id="productoNombre" >Figura Joda</h3><h3 id="precio">$63,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo4" src="assets\imagen4.png"><h3 id="productoNombre" >StormTroper</h3><h3 id="precio">$64,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo5" src="assets\imagen5.png"><h3 id="productoNombre" >Fig. Groku</h3><h3 id="precio">$65,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo6" src="assets\imagen6.png"><h3 id="productoNombre" >Fig. Sith</h3><h3 id="precio">$66,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
 
                 </ul>
             </div>
@@ -74,17 +79,17 @@
         <div class="title__div">
             
             <div class="title__container">
-                <h2 class="title__productos__CS">Consolas</h2>
-                <h3 class="irCatalogo1">Ver Todo<img id="flecha1" src="assets\flecha.png"></h3>
+                <h2 class="title__productos__CS"  id="consolas">Consolas</h2>
+                <h3 class="irCatalogo1"><a href="catalogo.html">  Ver Todo <img id="flecha" src="assets\flecha.png"></a></h3>
 
                 <ul class="title__catalogo__CS">
                      <!-- enlaces a los producots -->
-                    <li class="title__producto__item_7"><img id="imgcatalogo7" src="assets\imagen7.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$67,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_8"><img id="imgcatalogo8" src="assets\imagen8.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$68,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_9"><img id="imgcatalogo9" src="assets\imagen9.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$69,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_10"><img id="imgcatalogo10" src="assets\imagen10.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$70,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_11"><img id="imgcatalogo11" src="assets\imagen11.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$71,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_12"><img id="imgcatalogo12" src="assets\imagen12.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$72,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo7" src="assets\imagen7.png"><h3 id="productoNombre" >Joystick Xbox</h3><h3 id="precio">$67,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo8" src="assets\imagen8.png"><h3 id="productoNombre" >PS5</h3><h3 id="precio">$68,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo9" src="assets\imagen9.png"><h3 id="productoNombre" >Nintendo</h3><h3 id="precio">$69,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo10" src="assets\imagen10.png"><h3 id="productoNombre" >Wii</h3><h3 id="precio">$70,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo11" src="assets\imagen11.png"><h3 id="productoNombre" >Xbox One</h3><h3 id="precio">$71,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo12" src="assets\imagen12.png"><h3 id="productoNombre" >Gameboy</h3><h3 id="precio">$72,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
 
                 </ul>
             </div>
@@ -96,16 +101,16 @@
             
             <div class="title__container">
                 <h2 class="title__productos__DV">Diversos</h2>
-                <h3 class="irCatalogo2">Ver Todo<img id="flecha2" src="assets\flecha.png"></h3>
+                <h3 class="irCatalogo2"><a href="catalogo.html">  Ver Todo <img id="flecha" src="assets\flecha.png"></a></h3>
 
                 <ul class="title__catalogo__DV">
                      <!-- enlaces a los producots -->
-                    <li class="title__producto__item_13"><img id="imgcatalogo13" src="assets\imagen13.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$73,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_14"><img id="imgcatalogo14" src="assets\imagen14.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$74,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_15"><img id="imgcatalogo15" src="assets\imagen15.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$75,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_16"><img id="imgcatalogo16" src="assets\imagen16.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$76,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_17"><img id="imgcatalogo17" src="assets\imagen17.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$77,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
-                    <li class="title__producto__item_18"><img id="imgcatalogo18" src="assets\imagen18.png"><h3 id="productoNombre">Producto XYZ</h3><h3 id="precio">$78,00</h3><h3 id="accesoProducto">Ver producto</h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo13" src="assets\imagen13.png"><h3 id="productoNombre" >Bandera Atari</h3><h3 id="precio">$73,00</h3><h3 id="accesoProducto" ><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo14" src="assets\imagen14.png"><h3 id="productoNombre" >T-Shirt Nintendo</h3><h3 id="precio">$74,00</h3><h3 id="accesoProducto" ><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo15" src="assets\imagen15.png"><h3 id="productoNombre" >Figura Sonic</h3><h3 id="precio">$75,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo16" src="assets\imagen16.png"><h3 id="productoNombre" >Despertador Retro</h3><h3 id="precio">$76,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo17" src="assets\imagen17.png"><h3 id="productoNombre" >Casco VR</h3><h3 id="precio">$77,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
+                    <li class="title__producto__item"><img id="imgcatalogo18" src="assets\imagen18.png"><h3 id="productoNombre" >Traje Pikachu</h3><h3 id="precio">$78,00</h3><h3 id="accesoProducto"><a href="Product.html">Ver producto</a></h3></li>
 
                 </ul>
             </div>
@@ -144,5 +149,6 @@
         </div>
     </section>
 </body>
+<script src="Scripts\script.js"></script>
 </html>
 

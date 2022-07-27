@@ -4,6 +4,10 @@
 /* Vector */
 
 /* Auto layout */
+
+#lista-resultado{
+z-index: 2;    
+}
 .topo{
 display: flex;
 flex-direction: row;
@@ -30,6 +34,9 @@ background: #FFFFFF;
         font-family: 'Raleway';
         
 }
+.animals{
+    display: list-item;    
+   } 
 .input-icon {
         color: #191919;
         position: absolute;
@@ -38,17 +45,17 @@ background: #FFFFFF;
         left: 415px;
         top: 50%;
         transform: translateY(-50%);
+        cursor:pointer;
 }
 #search-text {
     font-size: 14px;
-    color: #ddd;
-    width:450px;
-    border-radius: 20px;
+    color: rgb(8, 8, 8);
+    width:430px;
+    border-radius: 16px;
     border-width: 0;
     background: rgb(235, 235, 235);
     padding: 9px 0 12px 1em;   
     font-family: 'Raleway'; 
-    
 }
     #search-box input[type="text"] {
     width: 90%;
@@ -56,21 +63,39 @@ background: #FFFFFF;
     outline: none;
     font-family: 'Raleway';
 }
-
 #botonLogin{
     position: absolute;
-    font-size:15px;
+    font-size:18px;
     left: 60%;
     top: 2.5%;
     width: 130px;
     height: 45px;
     border: 2px solid;
-    color: rgb(38, 102, 175);
-    background-color: transparent;
+    color:white;
+    background-color:  #2A7AE4;;
     border-color: rgb(38, 102, 175);
     font-family: 'Raleway';
+    cursor:pointer;
 }
-
+#botonLogin a{
+    text-decoration: none;
+    font-style: none;
+    color:white;
+}
+#botonLogin:link{
+    text-decoration: none;
+    font-style: none;
+}
+#botonLogin:visited{
+    text-decoration: none;
+    font-style: none;
+}
+#botonLogin:hover, #botonLogin a:hover{
+    background-color:  #1d58a5;;
+    border-color: #1b5299;
+    transition: 1s all;
+    color:white;
+}
 .banner{
     object-fit: cover;
     display: flex;
@@ -78,7 +103,6 @@ background: #FFFFFF;
     justify-content: flex-end;
     align-items: center;
     font-family: 'Raleway';
-
 }
 #bannerImg{
     object-fit: cover;
@@ -107,7 +131,6 @@ background: #FFFFFF;
     left: 9%;
     font-family: 'Raleway';
 }
-
 #botonConsolas{
     padding-left:10px;
     position:absolute;
@@ -123,8 +146,25 @@ background: #FFFFFF;
     width: 150px;
     height: 50px;
     font-family: 'Raleway';
+    cursor:pointer;
 }
-
+#botonConsolas a{
+    text-decoration:none;
+    color:white;
+}
+#botonConsolas:link{
+    font-style: none;
+    text-decoration:none;
+}    
+#botonConsolas:visited{
+    font-style: none;
+    text-decoration:none;
+}   
+#botonConsolas:hover{
+    background-color:  #1d58a5;;
+    border-color: #1b5299;
+    transition: 1s all;
+}
 .title__productos__SW{
     padding-left:225px;
     position:absolute;
@@ -133,7 +173,6 @@ background: #FFFFFF;
     z-index:1;
     font-family: 'Raleway';
 }
-
 .title__catalogo__SW{
     display:flex;
     justify-content: space-between;
@@ -144,18 +183,15 @@ background: #FFFFFF;
     margin-right:500px;
     font-family: 'Raleway';
 }
-
 .title__producto__item_1, .title__producto__item_2, .title__producto__item_3, .title__producto__item_4, .title__producto__item_5, .title__producto__item_6 {
      margin: 10px 0 0 0;
 }
-   
 #imgcatalogo1, #imgcatalogo2, #imgcatalogo3, #imgcatalogo4, #imgcatalogo5, #imgcatalogo6{
     width: 200px;
     height: 200px;
     margin: 0 0 0 55px;
     font-family: 'Raleway';
 }
-
 .irCatalogo{
 position:absolute;
 left:101rem;    
@@ -164,7 +200,40 @@ font-size: 18px;
 font-weight: 800;
 color:#2A7AE4;
 font-family: 'Raleway';
+cursor:pointer;
 }
+.irCatalogo a, .irCatalogo1 a, .irCatalogo2 a{
+    text-decoration:none;
+    color:#2A7AE4;
+}
+#irCatalogo:link, #irCatalogo1:link, #irCatalogo2:link{
+    font-style: none;
+    text-decoration:none;
+}    
+#irCatalogo:visited,#irCatalogo1:visited,#irCatalogo2:visited{
+    font-style: none;
+    text-decoration:none;
+}  
+.irCatalogo a:hover, .irCatalogo1 a:hover, .irCatalogo2 a:hover{
+    color:#133869;
+    transition: 1s all;
+}
+#accesoProducto a{
+    text-decoration:none;
+    color:#2A7AE4;
+}
+
+#accesoProducto{
+    cursor:pointer;
+    color:#2c84f7;
+}
+#accesoProducto:hover{
+    color:#1b5197;
+}
+
+
+
+
 #flecha{
     width:15px;
     height:12px;
@@ -231,7 +300,12 @@ font-family: 'Raleway';
     font-weight: 800;
     color:#2A7AE4;
     font-family: 'Raleway';
+    cursor:pointer;
 }
+#accesoProducto1:hover{
+    color:#1b5197;
+}
+
 #flecha1{
     width:15px;
     height:12px;
@@ -269,12 +343,15 @@ font-family: 'Raleway';
 .irCatalogo2{
     position:absolute;
     left:101rem;    
-    top:73rem;
+    top:104rem;
     font-size: 18px;
     font-weight: 800;
     color:#2A7AE4;
     font-family: 'Raleway';
+    cursor:pointer;
 }
+
+
 #flecha2{
     width:15px;
     height:12px;

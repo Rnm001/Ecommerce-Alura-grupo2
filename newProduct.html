@@ -39,11 +39,11 @@
             <header class="banner_boton__Gris">
                     <div class="textoBanner">
                     <h2 id="textoBannerh2">Agregar nuevo producto</h2>
-                    <input id="url-image-addProduct" placeholder="URL de imagen">
-                    <input id="categoria-addProduct" placeholder="Categoria">
-                    <input id="nombreProducto-addProduct" placeholder="Nombre del Producto">
-                    <input id="precioProducto-addProduct" placeholder="Precio del Producto">
-                    <textarea id="descripcion-addProduct" rows="3" cols="40" name="mensaje" oninput="this.value = this.value.replace(/[^a-zA-Z0-9.áéíóúñÑÁÉÍÓÚ ]/,'')" maxlength="300" placeholder="Descripcion del producto" required></textarea>
+                    <input id="url-image-addProduct" placeholder="URL de imagen" type="text" required>
+                    <input id="categoria-addProduct" placeholder="Categoria" type="text" required>
+                    <input id="nombreProducto-addProduct" placeholder="Nombre del Producto" type="text" required>
+                    <input id="precioProducto-addProduct" placeholder="Precio del Producto" type="text" required>
+                    <textarea id="descripcion-addProduct" rows="3" cols="40" name="mensaje" type="text" oninput="this.value = this.value.replace(/[^a-zA-Z0-9.áéíóúñÑÁÉÍÓÚ ]/,'')" maxlength="300" placeholder="Descripcion del producto" required></textarea>
                     <button id="agregarProducto-addProduct">Agregar Producto</button>
                 
                 </div>
