@@ -51,7 +51,11 @@
         outline: none;
         font-family: 'Raleway';
     }
-
+    #textoBannerh4{
+        padding-top:10px;
+        padding-left:10px;
+        font-family: 'Raleway';
+    }
     /*Inicio de sesion*/
 
     .bannerGris{

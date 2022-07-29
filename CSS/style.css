@@ -4,7 +4,89 @@
 /* Vector */
 
 /* Auto layout */
+.Separador{
+    margin-top:40px;
+    width: auto;
+    height: 150px;
+    position:relative;
+    background-color:#2A7AE4;
+}
+.Separador h2{
+    color:white;
+    padding-left:130px;
+    position:absolute;
+    top:55px;
+    font-size: 40px;
+    z-index:1;
+    font-family: 'Raleway';
+}
+.btn-todo-SW,.btn-todo-CS,.btn-todo-DV{
+    position:absolute;
+    left:110rem;    
+    top:3rem;
+    font-size: 18px;
+    font-weight: 800;
+    color:#2A7AE4;
+    font-family: 'Raleway';
+    cursor:pointer;
+}
+.card{
+    background-color: rgb(235, 235, 235);
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    width:fit-content;
+}
+.card h3{
+    text-align:center;
+        padding-left:50px;
+        padding-top: 10px;
+        top:950px;
+        font-size: 20px;
+        font-family: 'Raleway';
+}
+.card p{
+        text-align:center;
+        padding-top: 10px;
+        padding-left:50px;
+        padding-bottom: 20px;
+        top:950px;
+        font-size: 20px;
+        font-weight: 800;
+        font-family: 'Raleway';
+}
+.card a{
+    margin-left:90px;
+    text-align:center;
+    margin-top:20px;
+    padding-top: 30px;
+    top:950px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Raleway';
+    font-style: none;
+    text-decoration:none;
+    cursor:pointer;
+    color:#2c84f7;
+    
 
+}
+.card img{
+    box-shadow: 10px 10px 15px -11px rgba(0,0,0,0.75);
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    flex:wrap;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 0 55px;
+    font-family: 'Raleway';
+}
 #lista-resultado{
 z-index: 2;    
 }
@@ -195,7 +277,7 @@ background: #FFFFFF;
 .irCatalogo{
 position:absolute;
 left:101rem;    
-top:42rem;
+top:41.5rem;
 font-size: 18px;
 font-weight: 800;
 color:#2A7AE4;
@@ -295,7 +377,7 @@ cursor:pointer;
 .irCatalogo1{
     position:absolute;
     left:101rem;    
-    top:73rem;
+    top:72.1rem;
     font-size: 18px;
     font-weight: 800;
     color:#2A7AE4;
@@ -343,7 +425,7 @@ cursor:pointer;
 .irCatalogo2{
     position:absolute;
     left:101rem;    
-    top:104rem;
+    top:103rem;
     font-size: 18px;
     font-weight: 800;
     color:#2A7AE4;

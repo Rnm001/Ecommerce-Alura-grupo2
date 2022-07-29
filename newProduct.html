@@ -31,27 +31,28 @@
             </div>
             
         </header>
-    </section>
     </div>
-
+    </section>
+   
+<main>
     <div class="bannerGris">
-        <section class="banner_Gris">
-            <header class="banner_boton__Gris">
-                    <div class="textoBanner">
-                    <h2 id="textoBannerh2">Agregar nuevo producto</h2>
-                    <input id="url-image-addProduct" placeholder="URL de imagen" type="text" required>
-                    <input id="categoria-addProduct" placeholder="Categoria" type="text" required>
-                    <input id="nombreProducto-addProduct" placeholder="Nombre del Producto" type="text" required>
-                    <input id="precioProducto-addProduct" placeholder="Precio del Producto" type="text" required>
-                    <textarea id="descripcion-addProduct" rows="3" cols="40" name="mensaje" type="text" oninput="this.value = this.value.replace(/[^a-zA-Z0-9.áéíóúñÑÁÉÍÓÚ ]/,'')" maxlength="300" placeholder="Descripcion del producto" required></textarea>
-                    <button id="agregarProducto-addProduct">Agregar Producto</button>
-                
+        <section class="product-add">
+            <form class="banner_boton__Gris" data-form>
+                    
+                    <p id="textoBannerh2">Agregar nuevo producto</p>
+                    <input id="url-image-addProduct" placeholder="URL de imagen" type="text" required data-url></input>
+                    <input id="categoria-addProduct" placeholder="Categoria" type="text" required data-categoria></input>
+                    <input id="nombreProducto-addProduct" placeholder="Nombre del Producto" type="text" required data-name></input>
+                    <input id="precioProducto-addProduct" placeholder="Precio del Producto" type="text" required data-precio></input>
+                    <textarea id="descripcion-addProduct" rows="3" cols="40" maxlength="300" placeholder="Descripcion del producto" required data-descripcion></textarea>
+                    <button type="submit" id="agregarProducto-addProduct">Agregar Producto</button>
+                </form>
                 </div>
                 
-            </header>
+
         </section>
         </div>
-
+</main>
         <section class="formcontato" id="contacto">
             <div  class="formcontato__contacto">
                 <div class="formcontato--esquerda">
@@ -83,4 +84,7 @@
                                 
                 </div>
             </section>
-    
+</body>
+<script type="module" src="Controllers\productos-controller.js"></script>
+<script type="module" src="Controllers\crear-productos-controller.js"></script>
+</html>

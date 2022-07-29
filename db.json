@@ -1,4 +1,182 @@
 {
+  "producto": [
+    {
+      "name": "Taza Star Wars",
+      "imageUrl": "https://th.bing.com/th/id/OIP.3dITTmPmv97aHMWozocD3AHaHa?w=216&h=216&c=7&r=0&o=5&pid=1.7",
+      "price": "$30.-",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Una Taza de cafe con la figura de un Storm Trooper"
+    },
+    {
+      "name": "Figura Darth Vader",
+      "imageUrl": "https://www.bing.com/th?id=OIP.GihdiHEZPz4lcR_whfcgQAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+      "price": "$50.-",
+      "id": 2,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Figura de Darth Vader"
+    },
+    {
+      "name": "Figura Yoda",
+      "imageUrl": "https://th.bing.com/th/id/OIP.AEY5v0qMC9SZMrYrOIBmawHaHa?w=205&h=205&c=7&r=0&o=5&pid=1.7",
+      "price": "$50.-",
+      "id": 3,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Figura de Yoda"
+    },
+    {
+      "name": "Figura Storm Trooper",
+      "imageUrl": "https://th.bing.com/th/id/OIP.zpIJQnz2YZRF0OJ5dmsktgHaHa?w=173&h=180&c=7&r=0&o=5&pid=1.7",
+      "price": "$40.-",
+      "id": 4,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Figura Articulada de soldado Storm Trooper"
+    },
+    {
+      "name": "Figura Grogu",
+      "imageUrl": "https://th.bing.com/th/id/OIP.zva_4c1PRzTpGBS7z-T6XgHaHw?w=204&h=213&c=7&r=0&o=5&pid=1.7",
+      "price": "$50.-",
+      "id": 5,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Figura estatia de Grogu Yoda"
+    },
+    {
+      "name": "Figura Lord Sith",
+      "imageUrl": "https://th.bing.com/th/id/OIP.R45QKsindpeRW6WV04Fl1gHaHD?w=204&h=194&c=7&r=0&o=5&pid=1.7",
+      "price": "$40.-",
+      "id": 6,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Escultura de un Lord Sith"
+    },
+    {
+      "name": "nave star wars",
+      "imageUrl": "https://th.bing.com/th/id/OIP.sh_b50905CBa5R05c8Fu3gHaEr?w=270&h=180&c=7&r=0&o=5&pid=1.7",
+      "price": "$100",
+      "description": "nave star wars",
+      "id": 7
+    },
+    {
+      "name": "Gamepad Xbox One",
+      "imageUrl": "https://th.bing.com/th/id/OIP.PPFt6I_xdybzzVV0UYMEnAHaGe?w=214&h=187&c=7&r=0&o=5&pid=1.7",
+      "price": "$300.-",
+      "id": 7,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Joystick Xbox One"
+    },
+    {
+      "name": "Playstation 5",
+      "imageUrl": "https://th.bing.com/th/id/OIP.t4pwYTe7r5iQ-DeU8lWeewHaHy?w=184&h=194&c=7&r=0&o=5&pid=1.7",
+      "price": "$630.-",
+      "id": 8,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Consola de juegos Playstation 5"
+    },
+    {
+      "name": "Nintendo Retro",
+      "imageUrl": "https://th.bing.com/th/id/OIP.nQzf1SCXL05SeryD2hPXIAHaFP?w=251&h=180&c=7&r=0&o=5&pid=1.7",
+      "price": "$250.-",
+      "id": 9,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Una Nintendo generación 1"
+    },
+    {
+      "name": "Xbox X",
+      "imageUrl": "https://th.bing.com/th/id/OIP.mAeJ4t_tQDf0b9-SoeOnogHaHa?w=197&h=197&c=7&r=0&o=5&pid=1.7",
+      "price": "$600.-",
+      "id": 10,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Consola de videojuegos Xbox X"
+    },
+    {
+      "name": "Gameboy Color",
+      "imageUrl": "https://th.bing.com/th/id/OIP.ft_Wlc0-Dueb9I1H4UGfAwHaHa?w=171&h=180&c=7&r=0&o=5&pid=1.7",
+      "price": "$200.-",
+      "id": 11,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Consola de videojuegos portatil"
+    },
+    {
+      "name": "Nintendo Wii",
+      "imageUrl": "https://th.bing.com/th/id/OIP.CtiRaE9ucOFqtZGzjkR0BQHaHa?w=185&h=185&c=7&r=0&o=5&pid=1.7",
+      "price": "$400.-",
+      "id": 12,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Consola de videojuegos Nintendo Wii"
+    },
+    {
+      "name": "Bandera Atari",
+      "imageUrl": "https://th.bing.com/th/id/OIP.yHoVMIa7ohjX1bt5XioOKQHaEV?w=284&h=180&c=7&r=0&o=5&pid=1.7",
+      "price": "$30.-",
+      "id": 13,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Bandera Atari"
+    },
+    {
+      "name": "T-shirt Nintendo",
+      "imageUrl": "https://th.bing.com/th/id/OIP.9rNjvyzOxhcDWincremx9gHaHa?w=203&h=202&c=7&r=0&o=5&pid=1.7",
+      "price": "$30.-",
+      "id": 14,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Remera de Nintendo"
+    },
+    {
+      "name": "Figura Sonic",
+      "imageUrl": "https://th.bing.com/th/id/OIP.ETwbLthWyDXxJFycRDYtIwHaHa?w=220&h=219&c=7&r=0&o=5&pid=1.7",
+      "price": "$50.-",
+      "id": 15,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Figura de Sonic"
+    },
+    {
+      "name": "Despertador Retro",
+      "imageUrl": "https://th.bing.com/th/id/OIP.tsunqNVp46JKScovIVkiGQHaHa?w=181&h=181&c=7&r=0&o=5&pid=1.7",
+      "price": "$70.-",
+      "id": 16,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Despertador Retro con calendario"
+    },
+    {
+      "name": "Casco Vr Samsung",
+      "imageUrl": "https://th.bing.com/th/id/OIP.X6U2vk-29urRkaE4TwTW7QHaD4?w=296&h=180&c=7&r=0&o=5&pid=1.7",
+      "price": "$350.-",
+      "id": 17,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Casco de realidad Virtual Samsung Odissey+"
+    },
+    {
+      "name": "Traje Pikachu",
+      "imageUrl": "https://th.bing.com/th/id/OIP.92JUXxDrSYkYt38luDqj_QHaHa?w=197&h=197&c=7&r=0&o=5&pid=1.7",
+      "price": "$30.-",
+      "id": 18,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Traje de Pikachu Inflable"
+    },
+    {
+      "name": "Figura Superman",
+      "imageUrl": "https://th.bing.com/th/id/OIP.MMfYfZg-3Jfz0RdYnewSLwHaHa?w=204&h=204&c=7&r=0&o=5&pid=1.7",
+      "price": "$100",
+      "description": "Figura Superman",
+      "id": 19
+    }
+  ],
   "posts": [
     {
       "id": 1,
