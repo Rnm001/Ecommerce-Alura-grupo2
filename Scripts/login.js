@@ -13,7 +13,8 @@ function login(){
 
    
     if (correo==adminUser && password==adminPass) { 
-        window.location.href = "../newProduct.html";
+        window.location.href = "../catalogoedit.html";
+        render1();
         } 
         else{ 
             alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 

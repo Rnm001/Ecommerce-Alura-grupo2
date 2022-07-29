@@ -11,7 +11,7 @@ form.addEventListener("submit", (evento) => {
     const categoria = document.querySelector("[data-categoria]").value
 
     productoServices.creaproducto(nombre,url,price,descripcion,categoria).then(respuesta => {
-        window.location.href = "/catalogo.html"
+        window.location.href = "/catalogoedit.html"
         alert("El producto fue creado con exito")
         console.log(respuesta)
     }).catch( err => {

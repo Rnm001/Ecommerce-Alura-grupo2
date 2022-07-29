@@ -1,3 +1,7 @@
+
+
+
+
 import { productoServices } from "../servicios/productos-servicios.js"
 
 const nuevoProducto = (name, price, imageUrl) => {
@@ -9,6 +13,8 @@ const nuevoProducto = (name, price, imageUrl) => {
             <h3>${name}</h3>
             <p>${price}</p>
             <a href="">Ver producto</a>
+            <img id="btn-edit-card" src="../assets/lapicito.png"></img>
+            <img id="btn-del-card" src="../assets/Tachito.png" ></img>
             
     </div>
     `;
@@ -31,5 +37,17 @@ const render = async () => {
 }
 
 render()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
