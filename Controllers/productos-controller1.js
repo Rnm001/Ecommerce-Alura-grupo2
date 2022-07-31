@@ -4,10 +4,10 @@ const nuevoProducto = (name, price, imageUrl, id) => {
     const card = document.createElement("div");
     const contenido = `
     <div >
-        <img src="${imageUrl}" alt ="">
+        <img src="${imageUrl}" class="imgClass" alt ="">
             <h3>${name}</h3>
             <p>${price}</p>
-            <a class="aCard" href="">Ver producto</a>
+            <a class="aCard" href="verproducto.html?id=${id}">Ver producto</a>
             <a href="editProduct.html?id=${id}"><img class="btn-edit-card" src="../assets/lapicito.png" href="editProduct.html?id=${id}"></img></a>"
             <button class="btn-del-card" id="${id}"> <img class="btn-del-card1" src="../assets/Tachito.png"></img></button>
             

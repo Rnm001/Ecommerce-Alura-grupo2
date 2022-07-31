@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS\reset.css">
+    <link rel="stylesheet" href="CSS\verproducto.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px),(max-width: 1366px), (max-width: 1440px)" href="CSS\responsivo.css">
+
+    <title>Ecommerce Alura</title>
+</head>
+
+
+<body>
+    <div class="topo">
+    <section class="logo_search_login">
+        <header class="logo_search_login__header">
+            <img id="logo" src="assets\logo1.png">
+            <div class="textoBuscar">
+               
+                <input  type="text" id="search-text" class="input" placeholder="¿Que deseas buscar?" wrap="off" function="search_product">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" id="lupa" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                </svg>
+                <ul id="lista-resultado">
+                </ul>
+            </div>
+            <button id="botonLogin"><a href=login.html>Login</a></button>
+        </header>
+    </section>
+    </div>
+    <div class="Separador">
+        <h2>Catalogo</h2>
+            </header>
+       </section>
+    </div>
+
+        <div class="catalogo">
+        <section class="categoria">
+        <div class="texto-categoria">
+ 
+    </div>
+    <main>
+        <div class="bannerGris">
+            
+            <section class="product-add">
+                <form class="banner_boton__Gris" data-form>
+                        
+                    <h3 id="textoBannerh3"  data-banner></h3>
+                    <h2 id="textoDescripcion">Descripción: </h2>
+                    <h2 id="textoPrecio">Precio: </h2>
+                        <img src="" id="nuevaFoto"></img>
+                            
+                        <input id="url-image-verProduct" placeholder="URL de imagen" type="text" required data-url readonly></input>
+                        <input id="categoria-verProduct" placeholder="Categoria" type="text" required data-categoria disabled></input>
+                        <input id="nombreProducto-verProduct" placeholder="Nombre del Producto" type="text" required data-name disabled></input>
+                        <input id="precioProducto-verProduct" placeholder="Precio del Producto" type="text" required data-precio disabled></input>
+                        <textarea id="descripcion-verProduct" rows="3" cols="40" maxlength="300" placeholder="Descripcion del producto" required data-descripcion disabled></textarea>
+                        <a id="comprarProducto-buyProduct">Comprar Producto</a>
+                    </form>
+                    </div>
+                    
+    
+            </section>
+            </div>
+    </main>
+</section>
+</div>
+    <!-- Sección de Footer -->
+</div>
+<section class="formcontato" id="contacto">
+    <div  class="formcontato__contacto">
+        <div class="formcontato--esquerda">
+            <img class="formcontato__img" src="assets\logo1.png">
+        </div>
+        <div class="listaFooter">
+            <a class="title__Quienes"><h3>Quienes Somos</h3></a>
+            <a class="title__Privacidad"><h3>Politica de Privacidad</h3></a>
+            <a class="title__Fidelidad"><h3>Programa de Fidelidad</h3></a>
+            <a class="title__Tiendas"><h3>Nuestras Tiendas</h3></a>
+            <a class="title__Franquicidado"><h3>Quiero ser franquisiado</h3></a>
+            <a class="title__Anuncie"><h3>Anuncie Aqui</h3></a>
+        </div>
+        <div class="formcontato__text">
+            <h2 class="formcontato__title">Hable con nosotros<br></br></h2>
+                <form action="https://formsubmit.co/programacionpruebas2022@gmail.com" method="post" class="formcontato__form" name="form">
+                <input id="name" class="formcontato__input name" type="text" name="name" oninput="this.value = this.value.replace(/[^a-zA-Z ]/,'')" maxlength="50" placeholder="Nombre" required>
+                <textarea class="formcontato__textarea mensaje" rows="3" cols="40" id="mensaje" name="mensaje" oninput="this.value = this.value.replace(/[^a-zA-Z0-9.áéíóúñÑÁÉÍÓÚ ]/,'')" maxlength="300" placeholder="Mensaje" required></textarea>
+                <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+            </form>
+        </div>
+    </div>
+</section>
+    
+    <section class="footer">
+        <div class="footer__rodape">
+            <p id="footTexto">Desarrollado por Ricardo Michini <br>2022</p>
+                        
+        </div>
+    </section>
+</body>
+<script type="module" src="Controllers\producto-ver.js"></script>
+</html>
+

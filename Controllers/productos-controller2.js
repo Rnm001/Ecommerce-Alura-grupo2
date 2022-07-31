@@ -1,6 +1,6 @@
 import { productoServices } from "../servicios/productos-servicios.js"
 
-const nuevoProducto = (name, price, imageUrl) => {
+const nuevoProducto = (name, price, imageUrl,id) => {
 
     const card = document.createElement("div");
     const contenido = `
@@ -23,7 +23,7 @@ const render = async () => {
     try {
         const listaProductos = await productoServices.listaProductos()
         listaProductos.forEach(elemento => {
-        productos.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.section))
+        productos.appendChild(nuevoProducto(elemento.name,  elemento.price, elemento.imageUrl, elemento.id, elemento.section, ))
         });
     }catch(erro){
         console.log(erro)
@@ -31,5 +31,3 @@ const render = async () => {
 }
 
 render()
-
-
