@@ -1,37 +1,27 @@
 {
   "producto": [
     {
-      "name": "Taza Star Wars",
-      "imageUrl": "https://th.bing.com/th/id/OIP.3dITTmPmv97aHMWozocD3AHaHa?w=216&h=216&c=7&r=0&o=5&pid=1.7",
-      "price": "$30.-",
+      "name": "Jarra de Star Wars",
+      "imageUrl": "https://th.bing.com/th/id/OIP.S2TIXxRT57N8EpKpJy48fwAAAA?w=148&h=207&c=7&r=0&o=5&pid=1.7",
+      "price": "$70.-",
       "id": 1,
       "alt": "Product",
       "section": "Star Wars",
-      "description": "Una Taza de cafe con la figura de un Storm Trooper"
+      "description": "Jarra de Cerverza de Star Wars"
     },
     {
       "name": "Figura Darth Vader",
-      "imageUrl": "https://www.bing.com/th?id=OIP.GihdiHEZPz4lcR_whfcgQAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
-      "price": "$50.-",
-      "id": 2,
-      "alt": "Product",
+      "imageUrl": "https://th.bing.com/th/id/OIP.3j6rhEJM8_wI7Y8vxpwGxAHaLs?w=131&h=208&c=7&r=0&o=5&pid=1.7",
+      "price": "$100.-",
+      "description": "Figura Darth Vader",
       "section": "Star Wars",
-      "description": "Figura de Darth Vader"
-    },
-    {
-      "name": "Figura Yoda",
-      "imageUrl": "https://th.bing.com/th/id/OIP.AEY5v0qMC9SZMrYrOIBmawHaHa?w=205&h=205&c=7&r=0&o=5&pid=1.7",
-      "price": "$50.-",
-      "id": 3,
-      "alt": "Product",
-      "section": "Star Wars",
-      "description": "Figura de Yoda"
+      "id": 2
     },
     {
       "name": "Figura Storm Trooper",
       "imageUrl": "https://th.bing.com/th/id/OIP.zpIJQnz2YZRF0OJ5dmsktgHaHa?w=173&h=180&c=7&r=0&o=5&pid=1.7",
       "price": "$40.-",
-      "id": 4,
+      "id": 3,
       "alt": "Product",
       "section": "Star Wars",
       "description": "Figura Articulada de soldado Storm Trooper"
@@ -40,7 +30,7 @@
       "name": "Figura Grogu",
       "imageUrl": "https://th.bing.com/th/id/OIP.zva_4c1PRzTpGBS7z-T6XgHaHw?w=204&h=213&c=7&r=0&o=5&pid=1.7",
       "price": "$50.-",
-      "id": 5,
+      "id": 4,
       "alt": "Product",
       "section": "Star Wars",
       "description": "Figura estatia de Grogu Yoda"
@@ -49,17 +39,18 @@
       "name": "Figura Lord Sith",
       "imageUrl": "https://th.bing.com/th/id/OIP.R45QKsindpeRW6WV04Fl1gHaHD?w=204&h=194&c=7&r=0&o=5&pid=1.7",
       "price": "$40.-",
-      "id": 6,
+      "id": 5,
       "alt": "Product",
       "section": "Star Wars",
       "description": "Escultura de un Lord Sith"
     },
     {
-      "name": "nave star wars",
+      "name": "Nave star wars",
       "imageUrl": "https://th.bing.com/th/id/OIP.sh_b50905CBa5R05c8Fu3gHaEr?w=270&h=180&c=7&r=0&o=5&pid=1.7",
       "price": "$100",
-      "description": "nave star wars",
-      "id": 7
+      "id": 6,
+      "section": "Star Wars",
+      "description": "Nave Star Wars"
     },
     {
       "name": "Gamepad Xbox One",
@@ -168,13 +159,6 @@
       "alt": "Product",
       "section": "Diversos",
       "description": "Traje de Pikachu Inflable"
-    },
-    {
-      "name": "Figura Superman",
-      "imageUrl": "https://th.bing.com/th/id/OIP.MMfYfZg-3Jfz0RdYnewSLwHaHa?w=204&h=204&c=7&r=0&o=5&pid=1.7",
-      "price": "$100",
-      "description": "Figura Superman",
-      "id": 19
     }
   ],
   "posts": [
