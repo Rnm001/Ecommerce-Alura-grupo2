@@ -89,6 +89,44 @@
         background-color: #2A7AE4;
         border-color: #2A7AE4;
     }
+    .boton_menu__Volver{
+        position: absolute;
+        font-size:12px;
+        left: 1000px;
+        top: 5px;
+        border: 2px solid;
+        color:grey;
+        background-color: transparent;
+        border-color: #2A7AE4;
+        width: 150px;
+        height: 40px;
+        font-family: 'Raleway';
+        box-shadow: 10px 10px 15px -11px rgba(0,0,0,0.75);
+        cursor:pointer;
+    }
+    .boton_menu__Volver a:link{
+        font-style:none;
+        text-decoration:none;
+        
+    }
+    .boton_menu__Volver a:visited{
+        font-style:none;
+        text-decoration:none;
+        
+    }
+    .boton_menu__Volver a:hover{
+        transition: .2s all;
+        font-style:none;
+        text-decoration:none;
+        color:white;
+    }
+    .boton_menu__Volver:hover{
+        transition: .2s all;
+        border: 2px solid;
+        color:white;
+        background-color: #2A7AE4;
+        border-color: #2A7AE4;
+    }
     /*Agregado de producto*/
 
     .bannerGris{

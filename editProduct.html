@@ -28,6 +28,7 @@
                 <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
                 </svg>
                 <button class="boton_menu__Admin"><a href=catalogoedit.html>Menu Administrativo</a></button>
+                <button class="boton_menu__Volver"><a href=catalogoedit.html>Volver</a></button>
             </div>
             
         </header>
@@ -42,8 +43,8 @@
                     <p id="textoBannerh2">Editar Producto</p>
                     <input id="url-image-addProduct" placeholder="URL de imagen" type="text" required data-url></input>
                     <input id="categoria-addProduct" placeholder="Categoria" type="text" required data-categoria></input>
-                    <input id="nombreProducto-addProduct" placeholder="Nombre del Producto" type="text" required data-name></input>
-                    <input id="precioProducto-addProduct" placeholder="Precio del Producto" type="text" required data-precio></input>
+                    <input id="nombreProducto-addProduct" placeholder="Nombre del Producto" maxlength="17" type="text" required data-name></input>
+                    <input id="precioProducto-addProduct" placeholder="Precio del Producto" maxlength="17" type="text" required data-precio></input>
                     <textarea id="descripcion-addProduct" rows="3" cols="40" maxlength="300" placeholder="Descripcion del producto" required data-descripcion></textarea>
                     <button type="submit" id="agregarProducto-addProduct">Editar Producto</button>
                 </form>

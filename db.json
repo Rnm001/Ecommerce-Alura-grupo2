@@ -159,6 +159,22 @@
       "alt": "Product",
       "section": "Diversos",
       "description": "Traje de Pikachu Inflable"
+    },
+    {
+      "name": "Figura de Goku SSJ4",
+      "imageUrl": "https://th.bing.com/th/id/OIP.JAAg-ukUnROe-wQXIyhDogHaHa?w=214&h=214&c=7&r=0&o=5&pid=1.7",
+      "price": "$70",
+      "description": "Figura de Goku SSJ4 - Dragon Ball GT",
+      "section": "undefined",
+      "id": "6225ede5-9e57-4527-91de-304c8fe68a9e"
+    },
+    {
+      "name": "Fig. Goku SSJBlue",
+      "imageUrl": "https://th.bing.com/th/id/OIP.yZMGARGPGM1-QtZQB1rnhwHaHa?w=214&h=214&c=7&r=0&o=5&pid=1.7",
+      "price": "$70.-",
+      "description": "Muñeco de Goku SSJ Dios blue",
+      "section": "undefined",
+      "id": "0a7d867c-07d9-40ab-b0f9-fba68959d9b4"
     }
   ],
   "posts": [
