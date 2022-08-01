@@ -45,3 +45,4 @@ form.addEventListener("submit", (evento) => {
     productoServices.actualizarProducto(name, imageUrl, price, description, section, id )
 
 });
+
