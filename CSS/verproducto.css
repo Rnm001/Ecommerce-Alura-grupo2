@@ -6,6 +6,7 @@
 
 #url-image-verProduct{
     display:none;
+    user-select:none;
 }
 #nuevaFoto{
     margin-top: 40px;
@@ -13,9 +14,12 @@
     padding-left:90px;
     height: 350px;
     width:auto;
+    user-select:none;
+    
 }
 #categoria-verProduct{
     display:none;
+    user-select:none;
 }
 #textoDescripcion{
     margin-left:80px;
@@ -30,6 +34,7 @@
     font-family: 'Raleway';
     background-color: white;
     color:black;
+    user-select:none;
 }
 
 #nombreProducto-verProduct{
@@ -46,6 +51,7 @@
     font-family: 'Raleway';
     background-color: white;
     color:black;
+    user-select:none;
 }
 #descripcion-verProduct{
     text-decoration: none;
@@ -60,6 +66,7 @@
     margin-left:80px;
     background-color: white;
     color:black;
+    user-select:none;
 }
 #textoPrecio{
 
@@ -75,6 +82,7 @@
     font-family: 'Raleway';
     background-color: white;
     color:black;
+    user-select:none;
 }
 #precioProducto-verProduct{
     margin-left:80px;
@@ -89,6 +97,7 @@
     font-family: 'Raleway';
     background-color: white;
     color:black;
+    user-select:none;
 }
 #comprarProducto-buyProduct{
     padding-top:12px;
@@ -112,6 +121,7 @@
     cursor: pointer;
     left:650px;
     top: 585px;
+    user-select:none;
 }
 #comprarProducto-buyProduct:hover{
 transition: .1s all;
@@ -156,6 +166,7 @@ cursor: pointer;
     padding-left: 30px;
     padding-right: 20px;
     width:fit-content;
+    user-select:none;
 }
 .card h3{
     text-align:center;
@@ -164,6 +175,7 @@ cursor: pointer;
         top:950px;
         font-size: 20px;
         font-family: 'Raleway';
+        user-select:none;
 }
 .card p{
         text-align:center;
@@ -174,6 +186,7 @@ cursor: pointer;
         font-size: 20px;
         font-weight: 800;
         font-family: 'Raleway';
+        user-select:none;
 }
 .card a{
     margin-left:90px;
@@ -188,6 +201,7 @@ cursor: pointer;
     text-decoration:none;
     cursor:pointer;
     color:#2c84f7;
+    user-select:none;
     
 
 }
@@ -201,6 +215,7 @@ cursor: pointer;
     height: 200px;
     margin: 0 0 0 55px;
     font-family: 'Raleway';
+    user-select:none;
 }
 #lista-resultado{
 z-index: 2;    
@@ -442,6 +457,7 @@ cursor:pointer;
     top:950px;
     font-size: 20px;
     font-family: 'Raleway';
+    user-select:none;
 }
 #precio{
     padding-top: 10px;
