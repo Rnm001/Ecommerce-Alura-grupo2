@@ -1,0 +1,129 @@
+#ctn-icon-search{
+    position:absolute;
+    left:765px;
+    top:45px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 12;
+}
+
+#ctn-icon-search i{ 
+    font-size:18px;
+    color:#777777;
+    cursor:pointer;
+    transition: 1s all;
+}
+
+#ctn-icon-search hover{
+    color:blue;
+}
+
+#ctn-bars-search{
+    position:absolute;
+    top:10px;
+    left:250px;
+    width:200px;
+    background:white;
+    padding: 20px;
+    z-index: 9;
+    transition: 1s all;
+}
+
+#ctn-bars-search input{
+    display:block;
+    width:500px;
+    margin:auto;
+    padding:10px;
+    font-size:18px;
+    outline:0;
+    transition: 1s all;
+}
+
+#box-search{
+    transition: 1s all;
+    position:absolute;
+    top: 105px;
+    width:200px;
+    background:white;
+    z-index:8;
+    left:22%;
+    transform: translatex(-50%);
+    overflow:hidden;
+    display:none;
+    flex-wrap:wrap;
+    text-align: center;
+    
+}
+
+#box-search li a{
+    display:block;
+    width:140px;
+    transition: 1s all;
+    color:#777777;
+    padding:12px 20px;
+}
+
+#box-search li a:hover{
+background: #f3f3f3
+}
+#box-search li a i{
+    margin-right:10px;
+    transition: 1s all;
+     color:#777777;
+}
+
+#cover_ctn_search{
+    transition: 1s all;
+    width: 100%;
+    height:100%;
+    position:fixed;
+    
+    background: rgba(0,0,0,0.5);
+    z-index:7;
+    display:none;
+}
+
+#imgcatalogo{
+    display:flex;
+    flex-wrap:wrap;
+    width: 200px;
+    transition: 1s all;
+}
+
+#productoAparece{
+    width:300px;
+    list-style:none;
+    font-family: 'Raleway';
+    font-size:18px;   
+    padding-left:30px;
+}
+
+#productoAparece img{
+    width:180px;
+    padding-top:30px;
+    padding-left:30px;
+}
+
+#productoApareceName{
+    color:#2A7AE4;
+    font-family: 'Raleway';
+    left:300px;
+    
+}
+
+#productoAparecePrice p{
+    color:#2A7AE4;
+    font-family: 'Raleway';
+    align-items: center;
+    
+}
+
+#aCardID{
+    color:#2A7AE4;
+    font-family: 'Raleway';
+    align-items: center;
+    padding-left:20px;
+    
+}
+

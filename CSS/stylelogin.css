@@ -8,14 +8,6 @@
     gap: 611px;
     background: #FFFFFF;
     }
-    .textoBuscar button{
-    position:absolute;
-    margin-top:-30px;
-    left:400px;
-    border:none;
-    background-color:transparent;
-    cursor:pointer;
-}
     #logo{
         display:flex;
         position: absolute;
@@ -45,7 +37,7 @@
     #search-text {
         font-size: 14px;
         color: #ddd;
-        width:430px;
+        width:450px;
         border-radius: 20px;
         border-width: 0;
         background: rgb(235, 235, 235);

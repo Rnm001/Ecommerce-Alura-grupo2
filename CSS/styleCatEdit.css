@@ -4,16 +4,6 @@
 /* Vector */
 
 /* Auto layout */
-
-.textoBuscar button{
-    position:absolute;
-    margin-top:-30px;
-    left:400px;
-    border:none;
-    background-color:transparent;
-    cursor:pointer;
-}
-
 .card .btn-del-card{
     cursor:pointer;
     z-index:2;

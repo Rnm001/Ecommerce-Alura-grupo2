@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,7 @@
 
     <link rel="stylesheet" href="CSS\reset.css">
     <link rel="stylesheet" href="CSS\style.css">
+    <link rel="stylesheet" href="CSS\Search2.css">
     <link rel="stylesheet" media="screen and (max-width: 768px),(max-width: 1366px), (max-width: 1440px)" href="CSS\responsivo.css">
 
     <title>Ecommerce Alura</title>
@@ -20,24 +22,37 @@
 
 
 <body>
-    <div class="topo">
-    <section class="logo_search_login">
-        <header class="logo_search_login__header">
-            <img id="logo" src="assets\Logo1.png">
-            <div class="textoBuscar">
-               
-                <input  type="text" id="search-text" class="input" placeholder="¿Que deseas buscar?" wrap="off" function="search_product" search_product></input>
-                <button class="search-button" id="search-btn" search-button><img class="Search-icon"
-                    src="./assets/Search.svg" alt="Search"></button>
-                <script src="Scripts\buscar.js"></script>
-                
+    <header class="logo_search_login__header">
+        <div class="topo">
+            <section class="logo_search_login">
+                <img id="logo" src="assets\logo1.png">
+        <!--<div class="textoBuscar">
+           
+            <input  type="text" id="search-text" class="input" placeholder="¿Que deseas buscar?" wrap="off" function="search_product">
+            <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" id="lupa" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+            </svg>
+            <ul id="box-search">
+                <li><a href="#"></a></li>
+            </ul>-->
+
+                </img>
+            </section>
+
+        <button id="botonLogin"><a href=login.html>Login</a></button>
+
+        <div id="ctn-icon-search">
+                  <i class="fas fa-search" id="icon-search"></i>
+
             </div>
-                <ul id="lista-resultado">
-                </ul>
+        </div>
+            <div id="icon-menu">
             </div>
-            <button id="botonLogin"><a href=login.html>Login</a></button>
-        </header>
-    </section>
+    
+    </header>
+    
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Que deseas buscar?">
     </div>
 
     <div class="Separador">
@@ -46,11 +61,14 @@
        </section>
     </div>
 
+      
+
         <div class="catalogo">
         <section class="categoria">
         <div class="texto-categoria">
  
     </div>
+    <ul id="box-search" box-search></ul> 
     <div class ="productos"></div>
         <div class="card" datos-productos>
         </div>
@@ -127,7 +145,7 @@
 <section class="formcontato" id="contacto">
     <div  class="formcontato__contacto">
         <div class="formcontato--esquerda">
-            <img class="formcontato__img" src="assets\Logo1.png">
+            <img class="formcontato__img" src="assets\logo1.png">
         </div>
         <div class="listaFooter">
             <a class="title__Quienes"><h3>Quienes Somos</h3></a>
@@ -147,7 +165,7 @@
         </div>
     </div>
 </section>
-    
+
     <section class="footer">
         <div class="footer__rodape">
             <p id="footTexto">Desarrollado por Ricardo Michini <br>2022</p>
@@ -158,9 +176,10 @@
 <script src="Scripts\script.js"></script>
 <!--<script type="module" src="Controllers\productos-controller.js"></script>
 <script type="module" src="Controllers\crear-productos-controller1.js"></script>-->
-
+<script src="Scripts\scriptbuscar2.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script type="module" src="Controllers\productos-controller2.js"></script>
 <script type="module" src="Controllers\crear-productos-controller.js"></script>
+
 </html>
 

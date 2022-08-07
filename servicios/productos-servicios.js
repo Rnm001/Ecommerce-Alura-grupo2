@@ -58,36 +58,13 @@ const detalleProducto = (id) => {
         throw new Error ("No fue posible crear un producto")
     })
 };
-const detalleProductoNombre = (name, imageUrl, price, description, section,) => {
-    return fetch (`http://localhost:3000/producto/${name}`,{
-        method: "GET",
-        headers: {
-            "content-type": "application/json",
-        },
-        body: JSON.stringify({
-            name,
-            imageUrl,
-            price,
-            description,
-            section,
-            
-        })
 
-    })
-    .then( respuesta => {
-        if(respuesta.ok){
-        return respuesta.body
-    }
-   // throw new Error ("No fue posible encontrar el producto")
-})
-};
 
 export const productoServices = {
     listaProductos,
      creaproducto,
      eliminarProducto,
      detalleProducto,
-     detalleProductoNombre,
      actualizarProducto,
 }
 
