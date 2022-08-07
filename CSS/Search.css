@@ -43,11 +43,11 @@
 #box-search{
     transition: 1s all;
     position:absolute;
-    top: 105px;
-    width:200px;
+    top: 100px;
+    width:240px;
     background:white;
     z-index:8;
-    left:22%;
+    left:27%;
     transform: translatex(-50%);
     overflow:hidden;
     display:none;
